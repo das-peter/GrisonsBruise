@@ -133,6 +133,3 @@
 [submodule "modules/addressfield"]
 	path = modules/addressfield
 	url = git@github.com:das-peter/addressfield.git
-[submodule "profiles/custom"]
-	path = profiles/custom
-	url = git@github.com:das-peter/GrisonsBruise.git
