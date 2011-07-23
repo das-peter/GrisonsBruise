@@ -118,3 +118,15 @@
 [submodule "libraries/colorbox"]
 	path = libraries/colorbox
 	url = git://github.com/jackmoore/colorbox.git
+[submodule "modules/wysiwyg"]
+	path = modules/wysiwyg
+	url = http://git.drupal.org/project/wysiwyg.git
+[submodule "modules/plupload"]
+	path = modules/plupload
+	url = http://git.drupal.org/project/plupload.git
+[submodule "modules/multiform"]
+	path = modules/multiform
+	url = http://git.drupal.org/project/multiform.git
+[submodule "modules/cck"]
+	path = modules/cck
+	url = http://git.drupal.org/project/cck.git
