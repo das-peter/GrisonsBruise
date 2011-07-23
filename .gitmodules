@@ -112,3 +112,9 @@
 [submodule "themes/gb"]
 	path = themes/gb
 	url = git@github.com:das-peter/GrisonsBruise_Theme.git
+[submodule "libraries/plupload"]
+	path = libraries/plupload
+	url = git://github.com/moxiecode/plupload.git
+[submodule "libraries/colorbox"]
+	path = libraries/colorbox
+	url = git://github.com/jackmoore/colorbox.git
