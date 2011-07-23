@@ -130,3 +130,6 @@
 [submodule "modules/cck"]
 	path = modules/cck
 	url = http://git.drupal.org/project/cck.git
+[submodule "modules/addressfield"]
+	path = modules/addressfield
+	url = git@github.com:das-peter/addressfield.git
