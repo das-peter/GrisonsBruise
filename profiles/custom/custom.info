@@ -1,0 +1,67 @@
+name = GrisonsBruise
+description = Install with for grisonsbruise.com needed features pre-configured.
+version = VERSION
+core = 7.x
+files[] = custom.profile
+
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+;dependencies[] = toolbar
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+dependencies[] = rules
+dependencies[] = rules_admin
+dependencies[] = devel
+dependencies[] = link
+dependencies[] = admin_menu
+dependencies[] = styles
+dependencies[] = styles_ui
+dependencies[] = plupload
+dependencies[] = ctools
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = media
+;dependencies[] = media_browser_plus
+;dependencies[] = media_gallery
+
+dependencies[] = advanced_help
+dependencies[] = cache_actions
+dependencies[] = cck
+dependencies[] = coder
+dependencies[] = date
+dependencies[] = email
+dependencies[] = entity
+dependencies[] = features
+dependencies[] = field_group
+dependencies[] = globalredirect
+dependencies[] = googleanalytics
+dependencies[] = mediaelement
+dependencies[] = references
+dependencies[] = page_title
+dependencies[] = panels
+dependencies[] = redirect
+dependencies[] = pathauto
+dependencies[] = site_verify
+dependencies[] = spamspan
+dependencies[] = token
+dependencies[] = wysiwyg
+dependencies[] = xmlsitemap
+
+
+dependencies[] = addressfield

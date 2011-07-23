@@ -1,0 +1,128 @@
+; Grisonsbruise makefile
+; ----------------
+; This makefile downloads all the stuff needed for the production setup of the
+; grisonsbruise project.
+
+api = 2
+core = 7.x
+
+; Core project
+; ------------
+
+ ; Bases on Core 7.2
+ projects[drupal][type] = "core"
+ projects[drupal][version] = "7.2"
+
+; Installation Profile
+; ---------------------
+
+ projects[grisonsbruise][type] = "profile"
+ projects[grisonsbruise][directory_name] = grisonsbruise
+ projects[grisonsbruise][download][type] = "git"
+ projects[grisonsbruise][download][url] = "git://github.com/das-peter/GrisonsBruise.git"
+
+; Themes
+; -------
+ projects[bluemasters][type] = "theme"
+ projects[marinelli][version] = "7.x-1.1"
+ 
+ projects[marinelli][type] = "theme"
+ projects[marinelli][version] = "7.x-3.0-beta9"
+
+; Modules
+; --------
+ projects[admin_menu] = "7.x-3.0-rc1"
+
+ projects[link] = "7.x-1.0-alpha3"
+ 
+ projects[advanced_help] = "7.x-1.0-beta1"
+
+ projects[cache_actions] = "7.x-2.0-alpha2"   
+
+ projects[cck][type] = "module"
+ projects[cck][download][type] = "file"
+ projects[cck][download][url] = "http://ftp.drupal.org/files/projects/cck-7.x-2.x-dev.tar.gz"
+
+ projects[coder] = "7.x-1.0-beta6"
+
+ projects[ctools] = "7.x-1.0-alpha4"
+
+ projects[date] = "7.x-2.0-alpha3"
+
+ projects[devel] = "7.x-1.0"
+
+ projects[email] = "7.x-1.0-beta1"
+
+ projects[entity] = "7.x-1.0-beta8"
+ 
+ projects[features] = "7.x-1.0-beta2"
+
+ projects[field_group] = "7.x-1.0"
+
+ projects[globalredirect][type] = "module"
+ projects[globalredirect][download][type] = "file"
+ projects[globalredirect][download][url] = "http://ftp.drupal.org/files/projects/globalredirect-7.x-1.x-dev.tar.gz"
+
+ projects[google_analytics] = "7.x-1.2"
+
+ ;projects[grammar_parser][type] = "module"
+ ;projects[grammar_parser][version] = "master"
+
+ projects[media][type] = "module"
+ projects[media][download][type] = "file"
+ projects[media][download][url] = "http://ftp.drupal.org/files/projects/media-7.x-1.x-dev.tar.gz"
+
+ projects[media_browser_plus][type] = "module"
+ projects[media_browser_plus][download][type] = "git"
+ projects[media_browser_plus][download][url] = "git://github.com/das-peter/Drupal---Media-Browser-Plus.git"
+ projects[media_browser_plus][download][branch] = "master"
+ 
+ projects[media_gallery] = "7.x-1.0-beta5"
+ 
+ projects[mediaelement] = "7.x-1.0"
+ 
+ projects[plupload] = "7.x-1.0-beta3"
+
+ projects[references] = "7.x-2.0-beta3"
+
+ projects[page_title][type] = "module"
+ projects[page_title][download][type] = "file"
+ projects[page_title][download][url] = "http://ftp.drupal.org/files/projects/page_title-7.x-2.x-dev.tar.gz"
+
+ projects[panels] = "7.x-3.0-alpha3"
+
+ projects[redirect] = "7.x-1.0-beta3"
+
+ projects[pathauto][type] = "module"
+ projects[pathauto][download][type] = "file"
+ projects[pathauto][download][url] = "http://ftp.drupal.org/files/projects/pathauto-7.x-1.x-dev.tar.gz"
+
+ projects[rules] = "7.x-2.0-beta1"
+
+ projects[site_verify] = "7.x-1.0"
+
+ projects[spamspan] = "7.x-1.1-beta1"
+
+ projects[styles] = "7.x-2.0-alpha6"
+
+ projects[token] = "7.x-1.0-beta2"
+
+ projects[views][type] = "module"
+ projects[views][download][type] = "file"
+ projects[views][download][url] = "http://ftp.drupal.org/files/projects/views-7.x-3.x-dev.tar.gz"
+
+ projects[wysiwyg] = "7.x-2.0"
+
+ projects[xmlsitemap] = "7.x-2.0-beta2"
+ 
+ projects[addressfield][type] = "module"
+ projects[addressfield][download][type] = "file"
+ projects[addressfield][download][url] = "http://ftp.drupal.org/files/projects/addressfield-7.x-1.x-dev.tar.gz"
+ projects[addressfield][patch][] = "http://drupal.org/files/issues/addressfield-swiss-address-format-and-autocompletion-1034158-15.patch"
+
+; Libraries
+; ----------
+ 
+ libraries[ckeditor][type] = "library"
+ libraries[ckeditor][download][type] = "file"
+ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6/ckeditor_3.6.tar.gz"

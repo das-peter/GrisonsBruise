@@ -1,0 +1,46 @@
+<?php
+
+/**
+ * Implements hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ */
+function custom_install() {
+  $default_theme = variable_set('theme_default', 'marinelli');
+
+  include_once DRUPAL_ROOT . '/profiles/standard/standard.install';
+  standard_install();
+
+  // Can't use install dependencies since conflict with the default field_tags.
+  module_enable(array('media_browser_plus'));
+
+  // Set up media field.
+  _custom_ensure_fields();
+}
+
+/**
+ * Make sure there's a media field on the page content type
+ */
+function _custom_ensure_fields() {
+ $field = array(
+    'field_name' => 'field_media',
+    'type' => 'media',
+    // Set cardinality to unlimited for tagging.
+    'cardinality' => FIELD_CARDINALITY_UNLIMITED,
+    'entity_type' => 'node',
+ 	'bundle' => 'page',
+    'label' => 'Images',
+    'widget' => array('type' => 'media_generic'),
+    'settings' => array(
+      'allowed_types' => array('image'),
+    ),
+  );
+  $existing_field = field_info_field($field['field_name']);
+  if (empty($existing_field)) {
+    field_create_field($field);
+  }
+  $existing_instance = field_info_instance($field['entity_type'], $field['field_name'], $field['bundle']);
+  if (empty($existing_instance)) {
+    field_create_instance($field);
+  }
+}
