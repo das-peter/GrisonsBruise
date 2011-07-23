@@ -130,3 +130,6 @@
 [submodule "modules/addressfield"]
 	path = modules/addressfield
 	url = git@github.com:das-peter/addressfield.git
+[submodule "modules/views_bulk_operations"]
+	path = modules/views_bulk_operations
+	url = http://git.drupal.org/project/views_bulk_operations.git
