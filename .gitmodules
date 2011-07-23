@@ -106,3 +106,9 @@
 [submodule "modules/xmlsitemap"]
 	path = modules/xmlsitemap
 	url = http://git.drupal.org/project/xmlsitemap.git
+[submodule "themes/marinelli"]
+	path = themes/marinelli
+	url = http://git.drupal.org/project/marinelli.git
+[submodule "themes/gb"]
+	path = themes/gb
+	url = git@github.com:das-peter/GrisonsBruise_Theme.git
