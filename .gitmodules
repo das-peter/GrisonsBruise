@@ -1,0 +1,108 @@
+[submodule "drupal"]
+	path = drupal
+	url = http://git.drupal.org/project/drupal.git
+[submodule "modules/admin_menu"]
+	path = modules/admin_menu
+	url = http://git.drupal.org/project/admin_menu.git
+[submodule "modules/advanced_help"]
+	path = modules/advanced_help
+	url = http://git.drupal.org/project/advanced_help.git
+[submodule "modules/cache_actions"]
+	path = modules/cache_actions
+	url = http://git.drupal.org/project/cache_actions.git
+[submodule "modules/coder"]
+	path = modules/coder
+	url = http://git.drupal.org/project/coder.git
+[submodule "modules/ctools"]
+	path = modules/ctools
+	url = http://git.drupal.org/project/ctools.git
+[submodule "modules/date"]
+	path = modules/date
+	url = http://git.drupal.org/project/date.git
+[submodule "modules/devel"]
+	path = modules/devel
+	url = http://git.drupal.org/project/devel.git
+[submodule "modules/email"]
+	path = modules/email
+	url = http://git.drupal.org/project/email.git
+[submodule "modules/entity"]
+	path = modules/entity
+	url = http://git.drupal.org/project/entity.git
+[submodule "modules/features"]
+	path = modules/features
+	url = http://git.drupal.org/project/features.git
+[submodule "modules/field_group"]
+	path = modules/field_group
+	url = http://git.drupal.org/project/field_group.git
+[submodule "modules/file_entity"]
+	path = modules/file_entity
+	url = http://git.drupal.org/project/file_entity.git
+[submodule "modules/redirect"]
+	path = modules/redirect
+	url = http://git.drupal.org/project/redirect.git
+[submodule "modules/globalredirect"]
+	path = modules/globalredirect
+	url = http://git.drupal.org/project/globalredirect.git
+[submodule "modules/google_analytics"]
+	path = modules/google_analytics
+	url = http://git.drupal.org/project/google_analytics.git
+[submodule "modules/jcarousel"]
+	path = modules/jcarousel
+	url = http://git.drupal.org/project/jcarousel.git
+[submodule "modules/grisonsbruisefeatures"]
+	path = modules/grisonsbruisefeatures
+	url = git@github.com:das-peter/GrisonsBruise_Features.git
+[submodule "modules/libraries"]
+	path = modules/libraries
+	url = http://git.drupal.org/project/libraries.git
+[submodule "modules/link"]
+	path = modules/link
+	url = http://git.drupal.org/project/link.git
+[submodule "modules/media"]
+	path = modules/media
+	url = http://git.drupal.org/project/media.git
+[submodule "modules/media_browser_plus"]
+	path = modules/media_browser_plus
+	url = git://github.com/das-peter/Drupal---Media-Browser-Plus.git
+[submodule "modules/media_gallery"]
+	path = modules/media_gallery
+	url = http://git.drupal.org/project/media_gallery.git
+[submodule "modules/mediaelement"]
+	path = modules/mediaelement
+	url = http://git.drupal.org/project/mediaelement.git
+[submodule "modules/page_title"]
+	path = modules/page_title
+	url = http://git.drupal.org/project/page_title.git
+[submodule "modules/panels"]
+	path = modules/panels
+	url = http://git.drupal.org/project/panels.git
+[submodule "modules/pathauto"]
+	path = modules/pathauto
+	url = http://git.drupal.org/project/pathauto.git
+[submodule "modules/references"]
+	path = modules/references
+	url = http://git.drupal.org/project/references.git
+[submodule "modules/rules"]
+	path = modules/rules
+	url = http://git.drupal.org/project/rules.git
+[submodule "modules/site_verify"]
+	path = modules/site_verify
+	url = http://git.drupal.org/project/site_verify.git
+[submodule "modules/spamspan"]
+	path = modules/spamspan
+	url = http://git.drupal.org/project/spamspan.git
+[submodule "modules/strongarm"]
+	path = modules/strongarm
+	url = http://git.drupal.org/project/strongarm.git
+[submodule "modules/styles"]
+	path = modules/styles
+	url = http://git.drupal.org/project/styles.git
+[submodule "modules/token"]
+	path = modules/token
+	url = http://git.drupal.org/project/token.git
+[submodule "modules/views"]
+	path = modules/views
+	url = http://git.drupal.org/project/views.git
+[submodule "modules/xmlsitemap"]
+	path = modules/xmlsitemap
+	url = http://git.drupal.org/project/xmlsitemap.git
